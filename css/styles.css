@@ -1,7 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+
 
 body {
 	background: url(../img/12_col.gif) center top repeat-y;
@@ -14,40 +11,11 @@ body {
 	display: grid;
 	gap:2%;
 	grid-template-columns: repeat(12, 1fr);
-	/* grid-template-rows: repeat(12, auto); */
 	grid-template-areas: " header 	header header header  header  header header header header header header header "
 						 "box-1 box-1 box-2        box-2   box-2 box-2     box-2  box-2 box-2 box-2 box-3 box-3  "
 						 "main main    main   main   	main main main  main main  sidebar sidebar  sidebar "
 						 "footer 	footer footer footer	 footer footer footer footer footer footer footer	  footer ";
 }
-
-	/* mobil telefon
-	grid-template-columns: repeat(14, 1fr);
-	grid-template-rows: repeat(12, auto);
-	grid-template-areas: " header 	header    header    header    header   header   header   header   header   header   header    header      header"
-						 " box-1    box-1     box-1     box-1     box-1    box-1    box-1    box-1    box-1    box-1    box-1     box-1       box-1"
-						 " box-2    box-2     box-2     box-2     box-2    box-2    box-2    box-2    box-2    box-2    box-2     box-2       box-2"
-						 " box-3    box-3     box-3     box-3     box-3    box-3    box-3    box-3    box-3    box-3    box-3     box-3       box-3"
-						 " main      main      main      main      main     main     main     main     main      main     main      main      main"
-						 " footer 	footer    footer    footer	 footer    footer   footer    footer   footer    footer   footer	footer    footer";
-} */
-/* 
-skärm ipad 960px
-grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(12, auto);
-	grid-template-areas: " header 	header header header  header  header header header header header header header "
-						 "box-1 box-1 box-1     box-1   box-2 box-2     box-2  box-2 box-3 box-3 box-3 box-3  "
-						 "main main    main   main   	main main sidebar  sidebar sidebar  sidebar sidebar  sidebar "
-						 "footer 	footer footer footer	 footer footer footer footer footer footer footer	  footer "; */ 
-
-
-	/* skärm 1200px
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(12, auto);
-	grid-template-areas: " header 	header header header  header  header header header header header header header "
-						 "box-1 box-1 box-1        box-2   box-2 box-2     box-2  box-2 box-2 box-3 box-3 box-3  "
-						 "main main    main   main   	main main main  main sidebar  sidebar sidebar  sidebar "
-						 "footer 	footer footer footer	 footer footer footer footer footer footer footer	  footer "; */
 
 
 .container > div,
